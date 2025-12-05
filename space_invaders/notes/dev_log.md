@@ -68,5 +68,11 @@ Deleted enemy draw function outside the class
 
 Had to fix bug where enemy was drawn as huge
 
+**02 DEC 2025**
+
+Created update function inside of my enemy class that will handle enemy movement and update enemy position.
+
+Added the function into my main loop with the draw function.
+
 
 
