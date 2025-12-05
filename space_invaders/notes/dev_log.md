@@ -15,5 +15,14 @@ I also created a background using screen.fill and put my draw_player function (w
 
 Began creating player movement by checking the keyboard state and moving players X in the respective direction if it was pressed. 
 
+Added code that keeps the player from leaving the screen.
+
+
+**15 NOV 2025**
+
+Began coding today by loading my sprite into the main.py code. I fetched them from the repo. I also resized the player sprite to be shaped 40 by 40 px.
+
+Created a drawing function that draws the player at their current x and y co ordinates. Added this into the main loop
+
 
 
