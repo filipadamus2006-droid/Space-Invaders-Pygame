@@ -58,15 +58,13 @@ Cleaned up some code for clarity
 
 **27 NOV 2025**
 
-Prepared to implement enemy movement and shooting. Focused on testing with one enemy before spawning multiple.
-
 Considered movement patterns and interaction between enemy bullets and the player.
 
 **01 DEC 2025**
 
-Single enemy works in isolation (drawn on screen, stationary for now). Player shooting mechanics fully functional.
+Created enemy class including defining the variables and creating a draw function inside the class
 
-Code is cleaned up and structured to make adding enemy grids easier in future updates.
+Deleted enemy draw function outside the class
 
 
 
