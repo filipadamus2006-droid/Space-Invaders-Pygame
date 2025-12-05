@@ -1,7 +1,7 @@
-**Development Log**
+--10th November 2025--
+Setup basics ; clock , screen size
+Added player variables including X,Y,Speed
+Created the draw function that draws the player and tested it and it drew the player as a rectangle.
 
-**10 Nov 2025**
-- Created GitHub repository
-- Set up folder structure
-- Imported game assets into "assets" folder
+
 
