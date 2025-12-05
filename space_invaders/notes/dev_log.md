@@ -66,5 +66,7 @@ Created enemy class including defining the variables and creating a draw functio
 
 Deleted enemy draw function outside the class
 
+Had to fix bug where enemy was drawn as huge
+
 
 
