@@ -26,7 +26,47 @@ Created a new drawing function that draws the player at their current x and y co
 
 **16 NOV 2025**
 
-Started creating bullets. First i made a list to hold all active bullets. I then defined different variables.
+Started creating bullets. First I made a list to hold all active bullets. I then defined the bullet width, height and speed.
+
+Added a new if statement in the main loop to check for key presses. If the SPACE key is pressed, it sets booletX and booletY to the player’s current position.
+
+Used bullets.append to add a new rectangle into the bullet list at the player’s position. This will be used to draw and move bullets in future frames.
+
+Created a new list to update bullets each frame and remove any that go off screen. Looping over bullets, I added b.y += bullet_speed to move each bullet.
+
+Checked if bullet is still on screen (b.y > 0) and added it to the new list if so. Each bullet is drawn as a yellow rectangle.
+
+Fixed bullet direction by changing speed to -7 so bullets go upward. Also added 17 px to bullet X so bullets roughly come out of the center of the player.
+
+**18 NOV 2025**
+
+Added the enemy sprite to the game and loaded it in. Decided to keep the enemy at its default size so it doesn’t get stretched.
+
+Created the draw_enemy() function using the same logic as the player draw function. Cleaned up variable names for consistency (enemy_img).
+
+**20 NOV 2025**
+
+Decided to make sure a single enemy works well before creating a grid of enemies. This will help reduce bugs later.
+
+**23 NOV 2025**
+
+Polished player and bullet mechanics. Confirmed player can move smoothly and stay inside screen boundaries.
+
+bullets spawn correctly from the player and move upward, disappearing when off-screen.
+
+Cleaned up some code for clarity
+
+**27 NOV 2025**
+
+Prepared to implement enemy movement and shooting. Focused on testing with one enemy before spawning multiple.
+
+Considered movement patterns and interaction between enemy bullets and the player.
+
+**01 DEC 2025**
+
+Single enemy works in isolation (drawn on screen, stationary for now). Player shooting mechanics fully functional.
+
+Code is cleaned up and structured to make adding enemy grids easier in future updates.
 
 
 
