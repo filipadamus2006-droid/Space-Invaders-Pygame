@@ -19,3 +19,11 @@ Fired bullets and checked movement - initially moved downwards, fixed by setting
 
 Enemy displays correctly on screen. draw_enemy() works multiple times without error. Bullets still function normally with enemy on screen.
 
+**20 NOV 2025**
+
+Checked bullets with placeholder enemyv- pass through enemy (collision not implemented yet). Frame rate with player and bullets stable at 60 FPS.
+
+**23 NOV 2025**
+
+Player movement and shooting tested together - smooth, no bugs. Bullets disappear correctly off-screen. Minor visual issue: bullets slightly off-center if player moves quickly - acceptable for now.
+
