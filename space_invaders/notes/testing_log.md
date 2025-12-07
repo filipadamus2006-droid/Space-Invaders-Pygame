@@ -36,3 +36,28 @@ Today i added the enemy class. I wanted to test that the enemy prints to the scr
 Tested the new update function that moves the enemy around. the enemy moves left / right and when they hit the wall, they turn flip directions they are moving and they go down 20 px.
 
 **04 DECEMBER 2025**
+
+Tested enemy shooting feature. The enemy bullets where being spawned, but not being drawn. I fixed this by adding a draw function in the main loop to handle the enemy bullets. I noted this in my devlog, but i only added it after testing.
+
+**05 DEC 2025**
+
+Today i tested to see if the game ended when the enemy sprite reaches the bottom. The test failed. The game didnt end. The problem was the fact that my game_over variable wasnt truly global as it was inside a loop and I didnt notice. once i fixed this indentation error, the code ran smoothly.
+
+**06 DEC 2025**
+
+Collision with bullets caused crashes when enemies or bullets deleted; fixed by checking existence before update. Now the player loses lives and the game ends when lives ≤ 0
+
+**07 DEC 2025**
+
+Enemy bullets crashed the game after the enemy was deleted / killed. This was because whe the enemy dies, their bullets are removed and python didnt was still trying to move these bullets. I fixed it by adjusting any code that uses bullets to check first if the bullet exists.
+
+**08 DEC 2025**
+
+Continous shooting didnt work due to VS Code running an old instance. I didnt realise and spent like 4 hours tearing my game apart.
+Killing enemy left behind hitbox meaning player can shoot old hitbox and get infinite score. I fixed this by deleting the enemyhitbox alongisde the enemy itself.
+Enemy respawn works with multiple enemies in grid original Y position stored
+Player invincibility and red flash implemented correctly
+Random shooting cooldown added for enemies works perfectly
+
+
+GAME IS DONE! 
