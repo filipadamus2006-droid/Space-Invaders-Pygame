@@ -77,5 +77,16 @@ Created update function inside of my enemy class that will handle enemy movement
 
 Added the function into my main loop with the draw function.
 
+**03 DEC 2025**
+
+Added enemy update() function in the main loop with the draw function.
+
+
+Added variables in the enemy class to manage movement and bullets.
+
+
+Began planning the enemy shooting function.
+
+
 
 
