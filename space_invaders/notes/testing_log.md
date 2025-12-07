@@ -34,3 +34,5 @@ Today i added the enemy class. I wanted to test that the enemy prints to the scr
 **02 DECEMBER 2025**
 
 Tested the new update function that moves the enemy around. the enemy moves left / right and when they hit the wall, they turn flip directions they are moving and they go down 20 px.
+
+**04 DECEMBER 2025**
